@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrados</title>
+    <link rel="stylesheet" href="cuadrados.css">
+</head>
+
+<body id="fondo">
+    <div class="fondo">
+        <button id="rojo">rojo</button>
+        <button id="azul">azul</button>
+        <button id="verde">verde</button>
+        <button id="reset">reset</button>
+    </div>
+    
+    <script>
+        var fondo = document.getElementById('fondo')
+        var rojo = document.getElementById('rojo')
+        var azul = document.getElementById('azul')
+        var verde = document.getElementById('verde')
+        var reset = document.getElementById('reset')
+
+        rojo.addEventListener('click', function () { fondo.style.backgroundColor = 'red' });
+        azul.addEventListener('click', function () { fondo.style.backgroundColor = 'blue' });
+        verde.addEventListener('click', function () { fondo.style.backgroundColor = 'green' });
+        reset.addEventListener('click', function () { fondo.style.backgroundColor = 'white'});
+    </script>
+</body>
+
+</html>
