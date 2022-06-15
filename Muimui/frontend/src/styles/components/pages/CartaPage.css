@@ -1,0 +1,29 @@
+.productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.productos h2{
+    padding: 10px;
+}
+
+/*.productos h3{
+font-size: 20px;    
+}
+
+.productos h4{
+    font-size: 25px;    
+    }
+*/
+.producto{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.producto img{
+    border-radius: 10%;
+    max-width: 100%;
+}

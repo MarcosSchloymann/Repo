@@ -1,5 +1,4 @@
-//import logo from './logo.svg';
-//import './App.css';
+import './App.css';
 import Header from './components/Layout/Header';
 import Nav from './components/Layout/Nav';
 import Footer from './components/Layout/Footer';
@@ -17,16 +16,16 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <BrowserRouter>
-      <Nav />
-        <Routes>
-          <Route path="/" element={<HomePage/>} />
-          <Route path="nosotros" element={<NosotrosPage/>} />
-          <Route path="carta" element={<CartaPage/>} />
-          <Route path="contacto" element={<ContactoPage/>} />
-          <Route path="trabajo" element={<TrabajoPage/>} />
-        </Routes>
-      </BrowserRouter>
+        <BrowserRouter>
+          <Nav />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="nosotros" element={<NosotrosPage />} />
+            <Route path="carta" element={<CartaPage />} />
+            <Route path="contacto" element={<ContactoPage />} />
+            <Route path="trabajo" element={<TrabajoPage />} />
+          </Routes>
+        </BrowserRouter>
       <Footer />
     </div>
   );

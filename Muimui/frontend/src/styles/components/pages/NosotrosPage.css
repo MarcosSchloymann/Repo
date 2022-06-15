@@ -1,0 +1,26 @@
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nosotros img{
+    border-radius: 10%;
+    width: 50%;
+    padding: 20px;
+    
+}
+
+.we{
+    max-width: 100%;
+    max-height: 960px;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.we img{
+    width: 60%;
+    height: 60%;
+}

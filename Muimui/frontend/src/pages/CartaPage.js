@@ -1,3 +1,4 @@
+import '../styles/components/pages/CartaPage.css'
 import React from "react";
 const CartaPage = (props) => {
     return (

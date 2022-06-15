@@ -1,0 +1,49 @@
+.header {
+    /*background-color: rgb(29, 60, 52);*/
+    width: 100%;
+    background: #8cd00d; 
+    background: -webkit-linear-gradient(to right, #7be35b, #31c536); 
+    background: linear-gradient(to right,rgba(0, 75, 65, 0.4) ,hsla(165, 36%, 17%, 0.6) ), url(../../../../public/img/Portada.JPG); 
+    color: white;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row; 
+    height: 520px; 
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ h1 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 80px;
+    font-weight: 100;
+    font-style: oblique;
+    /*display: inline-block;*/
+    position: relative;
+    margin-left: 150px;
+    padding: 80px 0 0 0;
+    text-align: left;
+    
+}
+
+.izquierda h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: oblique;
+    /*display: inline-block;*/
+    position: relative;
+    margin-left: 190px;
+    text-align: left;
+    
+}
+
+.wave{
+bottom: 0;
+width: 100%;
+position: absolute;
+}
+

@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    /*text-align: center;*/
+}
+
+.redes{
+    text-align: center;
+    width: 25%;
+    height: 120px;
+}
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.follow {
+display: flex;
+}
+
+.redes img{
+    border-radius: 50%;
+    width: 50%;
+}
+
+footer nav ul a:hover{
+    border-bottom: #333 1px solid;
+}
+
+.sello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5%;
+}

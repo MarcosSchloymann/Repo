@@ -1,0 +1,13 @@
+.home{
+    display: flex;
+}
+.home img{
+    border-radius: 5%;
+    width: 60%;
+    height: 70%;
+}
+
+h2{
+    color: rgb(57, 173, 70);
+    font-weight: 400;
+}
