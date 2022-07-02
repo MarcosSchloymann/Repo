@@ -10,16 +10,16 @@
 
 <body>
     <script>
-        var num1, num2, num3, num4;
-        num1 = prompt('ingrese un número', '')
-        num2 = prompt('ingrese un número', '')
-        num3 = prompt('ingrese un número', '')
-        num4 = prompt('ingrese un número', '')
+        var numeros = [100,50,5000,20,30]
+        var mayor = 0
 
-        if (num1 > num2 && num1 > num3 && num1 > num4) { document.write('El mayor es ' + num1) }
-         else { if (num2 > num3 && num2 > num4) { document.write('El mayor es ' + num2)}
-         else { if (num3 > num4) {document.write('El mayor es ' + num3)}
-         else { document.write('El mayor es ' + num4) } }  }
+        for(var i=0 ;i<numeros.length;i++){
+            if(numeros[i]>mayor){
+                mayor=numeros[i];
+            }
+        }
+
+        document.write('el mayor de '+ numeros +' es '+ mayor);
     </script>
 </body>
 

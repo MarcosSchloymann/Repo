@@ -7,7 +7,7 @@ const Footer = (props) => {
                 <div className="pie">
                     <div className="sello">
                         <p>2022 Muimui</p>
-                        <p>Todos los derechos reservados</p>
+                        <p>© Todos los derechos reservados</p>
                     </div>
                     <div className="redes">
                         <p>Seguinos</p>

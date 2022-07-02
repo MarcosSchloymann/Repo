@@ -1,9 +1,9 @@
 nav {
     display: flex;
-    color: rgb(49, 183, 47);
+    color: white;
     justify-content: right;
     margin-right: 5%;
-}
+} 
 
 nav ul {
     list-style: none;
@@ -14,14 +14,13 @@ nav ul {
 
 nav ul li{
     flex-grow: 1;
-}
+    }
 
 nav ul li a{
-    color: rgb(59, 200, 57);
+    color: white;
     text-decoration: none;
     padding: 3px 6px;
     display: block;
-    text-align: center;
 }
 
 nav ul li a:hover{
