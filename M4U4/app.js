@@ -39,7 +39,7 @@ app.get('/', function (req, res) {
   });
 });
 
-app.post('/ingresar', function (res, req) {
+app.post('/ingresar', function (req, res) {
   if (req.body.nombre) {
     req.session.nombre = req.body.nombre
   }
